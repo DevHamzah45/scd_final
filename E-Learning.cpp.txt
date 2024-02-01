@@ -13,7 +13,12 @@ public:
 
 ELearning();
 void registrationCourse(string courseName);
-void dropCourse(string courseName);
+void dropCourse(string courseName) {
+
+this.courseName=courseName;
+this.teacherName=teacherName;
+
+};
 string getCourseName();
 string getTeacherName();
 void display();
