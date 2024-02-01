@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+
+class ELearning{
+
+private:
+string course;
+int data;
+string teacher;
+
+
+public:
+
+ELearning();
+void registrationCourse(string courseName);
+void dropCourse(string courseName);
+string getCourseName();
+string getTeacherName();
+void display();
+
+}
+
+int main(){
+
+Elearning e;
+
+
+}
